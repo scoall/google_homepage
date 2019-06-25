@@ -1,0 +1,130 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+#main
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+#search
+{
+    margin-top: 20px;
+    width: 500px;
+}
+
+#buttons
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+ul
+{
+   list-style: none;
+}
+
+.nav-bar li
+{
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.nav-links a
+{
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sign-in
+{
+    color: #fff;
+}
+
+.nav-bar #sign-in 
+{
+    background: #81B98B;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.nav-bar #sign-in a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-bar-left
+{
+    float: left;
+}
+
+#nav-bar-right
+{
+    float: right;
+}
+
+li.nav-links a:hover
+{
+    text-decoration: underline;
+}
+
+#sign-in:hover
+{
+    box-shadow: 5px 5px 5px #999;
+}
+
+footer
+{
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+  
+footer ul li 
+{
+    display: inline;
+    color: #777;
+    font-size: 14px;
+    padding: 8px;
+}
+
+footer ul a
+{
+    text-decoration: none;
+    color: #777;
+    padding: 2px;
+}
+  
+footer ul.footer-left 
+{
+    float: left;
+    padding: 1px 20px;
+}
+  
+footer ul.footer-right 
+{
+    float: right;
+    padding: 1px 20px;
+}
+  
+footer ul a:hover 
+{
+    text-decoration: underline;
+}
